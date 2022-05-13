@@ -9,6 +9,7 @@ from .intranet import Chapel as IntranetChapel
 from .intranet import Timetable as IntranetTimetable
 from .intranet import Course as IntranetCourse
 from .intranet import GraduationExam as IntranetGraduationExam
+from .intranet import TotalAcceptanceStatus as IntranetTotalAcceptanceStatus
 from .lms import Login as LmsLogin
 from .lms import Profile as LmsProfile
 from .lms import CourseList as LmsCourseList
@@ -47,6 +48,7 @@ class IntranetAPI:
     Timetable = IntranetTimetable
     Course = IntranetCourse
     GraduationExam = IntranetGraduationExam
+    TotalAcceptanceStatus = IntranetTotalAcceptanceStatus
 
 
 class LmsAPI:
